@@ -1,3 +1,51 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.heading{
+    background-color: rgba(110, 223, 100, 0.625);
+    /* margin-left: 50vh; */
+    padding: 10px;
+    width: 420px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 40px;
+    /* color: rgb(238, 172, 191); */
+}
+.input{
+    background-color: rgba(110, 223, 100, 0.625);
+    padding: 10px;
+    width: 420px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+.input label{
+    /* background-color: rgb(34, 189, 232); */
+    font-size: 20px;
+    
+}
+
+.submit{
+    width: 30%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(237, 234, 52);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.input input{
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(172, 230, 177);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #1f1f1f;
+}
+.parent{
+ margin-top:4%;
+}
